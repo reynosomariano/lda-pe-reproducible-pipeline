@@ -1,0 +1,21 @@
+variable,type,description,allowed_values
+n,numeric,Unique patient identifier,Any numeric value
+EMBARAZO,categorical,Pregnancy group,"NP (normotensive pregnancy), PE (preeclampsia)"
+TX_LDA,categorical,Low-dose aspirin exposure,"no tratada, tratada"
+INICIO_SEM_TX_LDA,numeric,Gestational week of LDA initiation,Numeric (weeks)
+EDAD,numeric,Maternal age (years),Numeric
+PESO_I,numeric,Initial maternal weight (kg),Numeric
+PESO_F,numeric,Final maternal weight (kg),Numeric
+GANANCIA_PESO,numeric,Weight gain during pregnancy (kg),Numeric
+ALTURA,numeric,Maternal height (m),Numeric
+BMI_NUM,numeric,Pre-gestational BMI (kg/m2),Numeric
+BMI_CAT,categorical,BMI category,"normopeso, sobrepeso, obesidad 1, obesidad 2, obesidad 3"
+OBESIDAD,categorical,Obesity status,"no, sí"
+PAS,numeric,Systolic blood pressure (mmHg),Numeric
+PAD,numeric,Diastolic blood pressure (mmHg),Numeric
+PROT_CAT,binary,Proteinuria at diagnosis,"0 (no), 1 (yes)"
+PESO_RN,numeric,Birthweight (g),Numeric
+SEXO_RN,categorical,Fetal sex,"femenino, masculino"
+EG,numeric,Gestational age at delivery (weeks),Numeric
+PARTO,categorical,Type of delivery,"termino, pretermino"
+RCIU,categorical,Birthweight below percentile 10,"No, Sí"
