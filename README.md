@@ -1,7 +1,7 @@
 
 # Reproducible R pipeline
 
-This repository contains the R scripts used to reproduce the statistical analyses of the study: **MATERNAL OBESITY AND FETAL SEX SHAPE PERINATAL ASSOCIATIONS IN PREGNANCIES EXPOSED TO LOW-DOSE ASPIRIN**.
+This repository contains the R scripts used to reproduce the statistical analyses of the study: **MATERNAL OBESITY SHAPES ASSOCIATIONS BETWEEN PREECLAMSPIA AND BIRTHWEIGHT IN PREGNANCIES EXPOSED TO LOW-DOSE ASPIRIN**.
 
 The pipeline is designed to run on a curated input dataset with the same variable structure as the original study dataset. Original clinical data are not publicly shared, but a data template and variable dictionary are provided so that users can adapt the scripts to their own data.
 
